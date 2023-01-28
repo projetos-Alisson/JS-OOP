@@ -1,0 +1,25 @@
+
+
+1° PASSO: método salvar()
+
+Ao cliclar em SALVAR, o usuário chamará a funcao lerDados();
+Essa função ler os valores dos dois inputs (produto e preço)
+
+2° PASSO: atribuir o valor pego do input produto, e adicionar ao objeto produto{}
+
+nomeVariável.Id = this.id  <-- Esse id se refere ao id criado no escopo do constructor. Todo novo produto que for salvo pelo usuário
+o id sempre irá aumentar.
+
+nomeVariável.(propriedade) = document getElemen....
+nomeVariável.(propriedade) = document getElemen....
+
+return produto <== Ao retornar o valor do produto, os dados foram recebidos pela let produto ( dentro do método salvar( ) ) que recebeu as informações da função lerDados()
+
+3° PASSO: validaCampos(produto)
+
+Aqui, "produto" se torna um parâmetro, pois ele será a informação necessária para executar a função validaCampos(produto);
+
+as duas primeiras condições, é caso os campos de inputs estejam vazios;
+A última, é caso os campos sejam diferentes de vazios, significando que o usuário preencheu. Dessa forma, será retornado falso,
+pois a afirmação estava errada;
+Abaixo, há um return true 
